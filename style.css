@@ -1,0 +1,72 @@
+header {
+    color: #0d083b;
+    font-family: Merriweather;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/* Div IDs require '#' whereas classes require '.' in the stylesheet. */
+/* Div IDs are for a particular div whereas div classes are for a set of divs. */
+#header_subtitle {
+    color: #0d083b;
+    font-family: Merriweather;
+    font-size: 20px;
+}
+
+body {
+    /* Margin is the space around an element's border. */
+    /* Padding is the space between an element's border and the element's content. */
+    margin: auto;
+    width: 70%;
+    background-color: aliceblue;
+}
+
+.header_wrapper {
+    margin: 20px;
+}
+
+.nav_header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Fixed-position header and navbar. Warning: elements can hide under. */
+    /* position: fixed;
+    background: aliceblue;
+    width: 100%; */
+}
+
+/* justify-content is for horizontal alignment. */
+/* align-items is for vertical alignment. */
+/* float places an element on the side, allowing elements to wrap around it. */
+.navbar {
+    display: flex;
+    gap: 14px;
+}
+
+/* ':' denotes pseudo-class before a selector to style it for certain states. */
+a:link {
+    text-decoration: none;
+    font-family: Merriweather;
+    color: #6a76a3
+}
+
+a:visited {
+    text-decoration: none;
+    color: #6a76a3
+}
+
+a:hover {
+    text-decoration: none;
+    color: #6a76a3
+}
+
+a:active {
+    text-decoration: none;
+    color: #6a76a3
+}
+
+.test {
+    background-image: radial-gradient(red, blue);
+    height: 1800px;
+}
