@@ -49,25 +49,37 @@ body {
 a:link {
     text-decoration: none;
     font-family: Merriweather;
-    color: #6a76a3
+    color: #6a76a3;
 }
 
 a:visited {
     text-decoration: none;
-    color: #6a76a3
+    color: #6a76a3;
 }
 
 a:hover {
     text-decoration: none;
-    color: #6a76a3
+    color: #0d083b;
 }
 
 a:active {
     text-decoration: none;
-    color: #6a76a3
+    color: #6a76a3;
 }
 
-.test {
+.testbox {
     background-image: radial-gradient(red, blue);
     height: 1800px;
+}
+
+.maintenance {
+    font-family: Merriweather;
+    text-align: center;
+    margin: auto;
+    background-color: lightpink;
+    border: 3px solid;
+    border-radius: 8px;
+    border-color: rgb(255, 121, 121);
+    padding: 20px;
+    box-shadow: 2px 2px 5px gray;
 }
