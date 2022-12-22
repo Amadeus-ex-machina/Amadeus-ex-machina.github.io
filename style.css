@@ -31,9 +31,10 @@ body {
     align-items: center;
 
     /* Fixed-position header and navbar. Warning: elements can hide under. */
-    /* position: fixed;
+    position: sticky;
+    top: 0;
     background: aliceblue;
-    width: 100%; */
+    width: 100%;
 }
 
 /* justify-content is for horizontal alignment. */
