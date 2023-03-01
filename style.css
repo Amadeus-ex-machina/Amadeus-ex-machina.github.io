@@ -1,85 +1,81 @@
 header {
-    color: #0d083b;
+    color: #e2d89d;
     font-family: Merriweather;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 60px;
 }
 
-/* Div IDs require '#' whereas classes require '.' in the stylesheet. */
-/* Div IDs are for a particular div whereas div classes are for a set of divs. */
 #header_subtitle {
-    color: #0d083b;
+    color: #e2d89d;
     font-family: Merriweather;
     font-size: 20px;
 }
 
 body {
-    /* Margin is the space around an element's border. */
-    /* Padding is the space between an element's border and the element's content. */
-    margin: auto;
-    width: 70%;
-    background-color: aliceblue;
+
+    background-color: rgb(37, 37, 36);
 }
 
 .header_wrapper {
-    margin: 20px;
-}
-
-.nav_header_wrapper {
+    gap: 1rem;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    /* Fixed-position header and navbar. Warning: elements can hide under. */
-    position: sticky;
-    top: 0;
-    background: aliceblue;
-    width: 100%;
+    margin: 1rem;
+    margin-bottom: 3rem;
 }
 
-/* justify-content is for horizontal alignment. */
-/* align-items is for vertical alignment. */
-/* float places an element on the side, allowing elements to wrap around it. */
+.nav_wrapper {
+    margin: 1rem;
+    margin-bottom: 5rem;
+}
+
 .navbar {
+    font-size: 24px;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
     display: flex;
-    gap: 14px;
+    gap: 3rem;
+
 }
 
-/* ':' denotes pseudo-class before a selector to style it for certain states. */
 a:link {
     text-decoration: none;
     font-family: Merriweather;
-    color: #6a76a3;
+    color: #e2d89d;
 }
 
 a:visited {
     text-decoration: none;
-    color: #6a76a3;
+    color: #e2d89d;
 }
 
 a:hover {
     text-decoration: none;
-    color: #0d083b;
+    color: #fff8ce;
 }
 
 a:active {
     text-decoration: none;
-    color: #6a76a3;
+    color: #e2d89d;
 }
 
-.testbox {
-    background-image: radial-gradient(red, blue);
-    height: 1800px;
-}
-
-.maintenance {
-    font-family: Merriweather;
-    text-align: center;
+.text {
+    color: #e2d89d;
+    font-family: Roboto;
+    font-size: 18px;
     margin: auto;
-    background-color: lightpink;
-    border: 3px solid;
-    border-radius: 8px;
-    border-color: rgb(255, 121, 121);
-    padding: 20px;
-    box-shadow: 2px 2px 5px gray;
+    padding: 1rem;
+    line-height: 180%;
+}
+
+.main {
+    margin: auto;
+    width: 35%;
+    margin-bottom: 10rem;
+}
+
+.pillar {
+    background-color:  #e2d89d;
+    width: 1rem;
+    height: 10rem;
 }
