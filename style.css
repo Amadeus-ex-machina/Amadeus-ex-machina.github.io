@@ -2,7 +2,7 @@
 
 
 :root {
-    --bg-color: #252524;
+    --bg-color: #242425;
     --text-color: #c7bf92;
     --text-light-color: #f1eabe;
 }
@@ -11,7 +11,11 @@ header {
     color: var(--text-color);
     font-family: 'Jost';
     font-weight: bold;
-    font-size: 70px;
+    font-size: 4.4rem;
+
+    max-width: 40rem;
+    margin: auto;
+    margin-bottom: 2rem;
 }
 
 .keyword {
@@ -21,26 +25,18 @@ header {
 
 body {
     background-color: var(--bg-color);
-}
-
-.header_wrapper {
-    gap: 1rem;
-    display: flex;
-    margin: 1rem;
-    margin-bottom: 3rem;
-}
-
-.nav_wrapper {
-    margin: 1rem;
-    margin-bottom: 5rem;
+    margin: 0;
 }
 
 .navbar {
-    font-size: 24px;
-    padding-top: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
     display: flex;
+    max-width: 40rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+    font-size: clamp(1.2rem, 3vw, 1.6rem);
+
     gap: 3rem;
     font-family: Merriweather;
     font-weight: bold;
@@ -62,8 +58,8 @@ a:hover {
     text-decoration: underline;
     text-decoration-thickness: 0.3rem;
     text-underline-offset: 0.6rem;
-    color: var(--text-color);
-    transition: 30ms;
+    color: var(--text-light-color);
+    transition: 100ms;
 }
 
 a:active {
@@ -71,17 +67,18 @@ a:active {
     color: var(--text-color);
 }
 
+.main {
+    margin: 0;
+}
+
 .text {
-    color: var(--text-color);
-    font-family: Merriweather;
-    font-size: 18px;
+    max-width: 40rem;
     margin: auto;
-    padding: 1rem;
+
+    color: var(--text-color);
+
+    font-family: Merriweather;
+    font-size: 16px;
     line-height: 180%;
 }
 
-.main {
-    margin: auto;
-    width: 35%;
-    margin-bottom: 10rem;
-}
