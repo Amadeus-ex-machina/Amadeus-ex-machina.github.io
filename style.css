@@ -1,19 +1,26 @@
-header {
-    color: #e2d89d;
-    font-family: Merriweather;
-    font-weight: bold;
-    font-size: 60px;
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+:root {
+    --bg-color: #252524;
+    --text-color: #c7bf92;
+    --text-light-color: #f1eabe;
 }
 
-#header_subtitle {
-    color: #e2d89d;
-    font-family: Merriweather;
-    font-size: 20px;
+header {
+    color: var(--text-color);
+    font-family: 'Jost';
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.keyword {
+    color: var(--text-light-color);
+    font-weight: bold;
 }
 
 body {
-
-    background-color: rgb(37, 37, 36);
+    background-color: var(--bg-color);
 }
 
 .header_wrapper {
@@ -35,33 +42,38 @@ body {
     margin-bottom: 3rem;
     display: flex;
     gap: 3rem;
-
+    font-family: Merriweather;
+    font-weight: bold;
 }
 
 a:link {
     text-decoration: none;
-    font-family: Merriweather;
-    color: #e2d89d;
+    text-decoration-color: transparent;
+    color: var(--text-color);
+    text-underline-offset: 0.0rem;
 }
 
 a:visited {
     text-decoration: none;
-    color: #e2d89d;
+    color: var(--text-color);
 }
 
 a:hover {
-    text-decoration: none;
-    color: #fff8ce;
+    text-decoration: underline;
+    text-decoration-thickness: 0.3rem;
+    text-underline-offset: 0.6rem;
+    color: var(--text-color);
+    transition: 30ms;
 }
 
 a:active {
     text-decoration: none;
-    color: #e2d89d;
+    color: var(--text-color);
 }
 
 .text {
-    color: #e2d89d;
-    font-family: Roboto;
+    color: var(--text-color);
+    font-family: Merriweather;
     font-size: 18px;
     margin: auto;
     padding: 1rem;
@@ -72,10 +84,4 @@ a:active {
     margin: auto;
     width: 35%;
     margin-bottom: 10rem;
-}
-
-.pillar {
-    background-color:  #e2d89d;
-    width: 1rem;
-    height: 10rem;
 }
