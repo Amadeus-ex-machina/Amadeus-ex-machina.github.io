@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 :root {
-    --bg-color: #242425;
-    --text-color: #c7bf92;
-    --text-light-color: #f1eabe;
+    --bg-color: #041C32;
+    --text-color: #9ad1e4;
+    --text-light-color: #ffebd7;
 }
 
 header {
@@ -18,11 +16,6 @@ header {
     margin-bottom: 2rem;
 }
 
-.keyword {
-    color: var(--text-light-color);
-    font-weight: bold;
-}
-
 body {
     background-color: var(--bg-color);
     margin: 0;
@@ -33,12 +26,27 @@ body {
     max-width: 40rem;
     margin: auto;
     margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1.6rem;
 
     font-size: clamp(1.2rem, 3vw, 1.6rem);
 
     gap: 3rem;
-    font-family: Merriweather;
+    font-family: 'Lora';
+    font-weight: bold;
+
+    /* animation: 100ms ease-out 0s 1 slideInFromTop; */
+}
+
+.sub-navbar {
+    display: flex;
+    max-width: 40rem;
+    margin: auto;
+    margin-bottom: 4rem;
+
+    font-size: clamp(1.0rem, 3vw, 1.4rem);
+
+    gap: 1.4rem;
+    font-family: 'Lora';
     font-weight: bold;
 }
 
@@ -67,8 +75,17 @@ a:active {
     color: var(--text-color);
 }
 
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+}
+
 .main {
-    margin: 0;
+
 }
 
 .text {
@@ -77,8 +94,8 @@ a:active {
 
     color: var(--text-color);
 
-    font-family: Merriweather;
-    font-size: 16px;
+    font-family: 'Lora';
+    font-size: 18px;
     line-height: 180%;
 }
 
