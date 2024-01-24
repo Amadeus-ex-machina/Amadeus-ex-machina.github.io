@@ -1,0 +1,12 @@
+.toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1%;
+}
+
+.toggle:hover {
+  transform: scale(1.2);
+  -webkit-transition: all 0.2s ease;
+  cursor: pointer;
+}

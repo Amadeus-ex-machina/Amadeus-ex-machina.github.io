@@ -1,0 +1,10 @@
+.FooterMain {
+    background-color: #ffffff;
+
+    height: 300px;
+    width: 100%;
+
+    margin-top: auto;
+
+    border-top: 1px solid black;
+}

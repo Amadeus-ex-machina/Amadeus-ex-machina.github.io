@@ -1,0 +1,23 @@
+.dark {
+    --background-color: #333333;
+    --header-text-color: rgb(88, 141, 240);
+    --subheader-text-color: rgb(165, 169, 177);
+    --small-text-color: rgb(210, 214, 221);
+
+    transition: background 0.1s;
+
+  background-color: var(--background-color);
+  color: #fff;
+}
+
+.light {
+  --background-color: #fff;
+  --header-text-color: rgb(6, 38, 97);
+  --subheader-text-color: rgb(93, 95, 99);
+  --small-text-color: rgb(153, 155, 158);
+
+  transition: background 0.1s;
+
+  background-color: var(--background-color);
+  color: #333;
+}
