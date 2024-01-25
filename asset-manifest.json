@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3682cc33.css",
-    "main.js": "/static/js/main.836b05bf.js",
+    "main.css": "/static/css/main.bcfc7bd1.css",
+    "main.js": "/static/js/main.450f0fdb.js",
     "static/js/787.c922dae8.chunk.js": "/static/js/787.c922dae8.chunk.js",
     "static/media/CarepackerStoryboardKiosk1.png": "/static/media/CarepackerStoryboardKiosk1.e605fc3e79e1c5f6afda.png",
     "static/media/CarepackerStoryboardWebsite.png": "/static/media/CarepackerStoryboardWebsite.f7e8e95b75d47b951594.png",
@@ -13,12 +13,12 @@
     "static/media/CarepackerShowcase.png": "/static/media/CarepackerShowcase.a9479241b81e8fcddbd8.png",
     "static/media/CarepackerFrames.png": "/static/media/CarepackerFrames.102a5ce4dee3f79c3ff4.png",
     "index.html": "/index.html",
-    "main.3682cc33.css.map": "/static/css/main.3682cc33.css.map",
-    "main.836b05bf.js.map": "/static/js/main.836b05bf.js.map",
+    "main.bcfc7bd1.css.map": "/static/css/main.bcfc7bd1.css.map",
+    "main.450f0fdb.js.map": "/static/js/main.450f0fdb.js.map",
     "787.c922dae8.chunk.js.map": "/static/js/787.c922dae8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3682cc33.css",
-    "static/js/main.836b05bf.js"
+    "static/css/main.bcfc7bd1.css",
+    "static/js/main.450f0fdb.js"
   ]
 }
