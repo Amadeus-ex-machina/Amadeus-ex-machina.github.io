@@ -11,6 +11,10 @@ import { GoLinkExternal } from "react-icons/go";
 import headshot from "./images/headshot.jpg";
 import CarepackerPhone from "./images/CarepackerPhone.png";
 
+const scrollToTop = () => {
+  window.scrollTo(0, 0);
+};
+
 export default function Home() {
   return (
     <html>
@@ -154,7 +158,7 @@ export default function Home() {
                 <br />
               </div>
 
-              <Link to="/project">
+              <Link onClick={scrollToTop} to="/project">
                 <img
                   className="card"
                   src={CarepackerPhone}
