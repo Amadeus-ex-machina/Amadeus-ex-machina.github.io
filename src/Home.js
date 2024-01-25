@@ -36,7 +36,7 @@ export default function Home() {
               <br />
 
               <div className="iconBar">
-                <span className="icon">
+                <div className="icon">
                   <a
                     href="https://github.com/amadeuswolfkang"
                     target="_blank"
@@ -44,9 +44,9 @@ export default function Home() {
                   >
                     <FaGithub style={{ paddingRight: 16 }} size={40} />
                   </a>
-                </span>
+                </div>
 
-                <span className="icon">
+                <div className="icon">
                   <a
                     href="https://www.linkedin.com/in/amadeuskang/"
                     target="_blank"
@@ -54,9 +54,9 @@ export default function Home() {
                   >
                     <FaLinkedin style={{ paddingRight: 16 }} size={40} />
                   </a>
-                </span>
+                </div>
 
-                <span className="icon">
+                <div className="icon">
                   <a
                     href="https://twitter.com/AmadeusKang"
                     target="_blank"
@@ -64,7 +64,7 @@ export default function Home() {
                   >
                     <FaTwitter style={{ paddingRight: 16 }} size={40} />
                   </a>
-                </span>
+                </div>
               </div>
             </div>
 
