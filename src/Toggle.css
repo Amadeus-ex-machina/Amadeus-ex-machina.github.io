@@ -1,4 +1,5 @@
 .toggle {
+  color: var(--subtle-color);
   position: absolute;
   top: 0;
   right: 0;
@@ -6,7 +7,8 @@
 }
 
 .toggle:hover {
-  transform: scale(1.2);
+
+  transform: scale(1.10);
   -webkit-transition: all 0.2s ease;
   cursor: pointer;
 }

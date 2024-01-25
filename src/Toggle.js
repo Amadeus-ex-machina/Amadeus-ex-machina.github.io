@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="toggle">
-        <BsFillLightbulbFill size={40} onClick={toggleTheme} />
+        <BsFillLightbulbFill size={30} onClick={toggleTheme} />
     </div>
   );
 }
