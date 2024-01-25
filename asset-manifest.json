@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.df7d51af.css",
-    "main.js": "/static/js/main.365994d5.js",
+    "main.css": "/static/css/main.3682cc33.css",
+    "main.js": "/static/js/main.dd3f6e5f.js",
     "static/js/787.c922dae8.chunk.js": "/static/js/787.c922dae8.chunk.js",
-    "static/media/headshot.jpg": "/static/media/headshot.5913f010d8848d757dd8.jpg",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/CarepackerStoryboardKiosk1.png": "/static/media/CarepackerStoryboardKiosk1.e605fc3e79e1c5f6afda.png",
+    "static/media/CarepackerStoryboardWebsite.png": "/static/media/CarepackerStoryboardWebsite.f7e8e95b75d47b951594.png",
+    "static/media/CarepackerStoryboardStore.png": "/static/media/CarepackerStoryboardStore.4fd3e1c8b646f8519988.png",
+    "static/media/CarepackerStoryboardKiosk2.png": "/static/media/CarepackerStoryboardKiosk2.0170a613120a2574a775.png",
+    "static/media/CarepackerStoryboardApp.png": "/static/media/CarepackerStoryboardApp.489d146510e68874b573.png",
+    "static/media/headshot.jpg": "/static/media/headshot.d894838ee872883ead12.jpg",
+    "static/media/CarepackerPhone.png": "/static/media/CarepackerPhone.70ab44e0f0256dd5cd17.png",
+    "static/media/CarepackerShowcase.png": "/static/media/CarepackerShowcase.a9479241b81e8fcddbd8.png",
+    "static/media/CarepackerFrames.png": "/static/media/CarepackerFrames.102a5ce4dee3f79c3ff4.png",
     "index.html": "/index.html",
-    "main.df7d51af.css.map": "/static/css/main.df7d51af.css.map",
-    "main.365994d5.js.map": "/static/js/main.365994d5.js.map",
+    "main.3682cc33.css.map": "/static/css/main.3682cc33.css.map",
+    "main.dd3f6e5f.js.map": "/static/js/main.dd3f6e5f.js.map",
     "787.c922dae8.chunk.js.map": "/static/js/787.c922dae8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df7d51af.css",
-    "static/js/main.365994d5.js"
+    "static/css/main.3682cc33.css",
+    "static/js/main.dd3f6e5f.js"
   ]
 }
