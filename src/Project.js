@@ -66,7 +66,7 @@ export default function Project() {
             <div className="ProjectText">
               <p>
                 A trial by fire is the best way to learn, isn't it? There's
-                nothing that incentizes results more than a deadline.
+                nothing that incentivizes results more than a deadline.
                 <br />
                 <br />
                 I spent 5 weeks on a UX design project. There's a story to be
