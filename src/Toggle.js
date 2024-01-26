@@ -4,7 +4,7 @@ import './Toggle.css';
 
 import { BsFillLightbulbFill } from "react-icons/bs";
 
-function App() {
+function Toggle() {
   const [theme, setTheme] = useState("light");
   const toggleTheme = () => {
     if (theme === "light") {
@@ -25,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default Toggle;

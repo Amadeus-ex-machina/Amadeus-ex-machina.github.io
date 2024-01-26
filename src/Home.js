@@ -1,11 +1,16 @@
 import "./Home.css";
 import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+
+import "./themes.css";
+import "./Toggle.css";
 
 // REACT ICONS
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { GoLinkExternal } from "react-icons/go";
+import { BsFillLightbulbFill } from "react-icons/bs";
 
 // IMAGES
 import headshot from "./images/headshot.jpg";
@@ -16,6 +21,19 @@ const scrollToTop = () => {
 };
 
 export default function Home() {
+  const [theme, setTheme] = useState("light");
+  const toggleTheme = () => {
+    if (theme === "light") {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
+  };
+
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
+
   return (
     <html>
       <body>
@@ -42,7 +60,13 @@ export default function Home() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <FaGithub style={{ paddingRight: 16 }} size={40} />
+                    <FaGithub
+                      style={{
+                        paddingRight: 16,
+                        color: theme === "light" ? "dark" : "light",
+                      }}
+                      size={40}
+                    />
                   </a>
                 </div>
 
@@ -52,7 +76,13 @@ export default function Home() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <FaLinkedin style={{ paddingRight: 16 }} size={40} />
+                    <FaLinkedin
+                      style={{
+                        paddingRight: 16,
+                        color: theme === "light" ? "dark" : "light",
+                      }}
+                      size={40}
+                    />
                   </a>
                 </div>
 
@@ -62,7 +92,13 @@ export default function Home() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <FaTwitter style={{ paddingRight: 16 }} size={40} />
+                    <FaTwitter
+                      style={{
+                        paddingRight: 16,
+                        color: theme === "light" ? "dark" : "light",
+                      }}
+                      size={40}
+                    />
                   </a>
                 </div>
               </div>
