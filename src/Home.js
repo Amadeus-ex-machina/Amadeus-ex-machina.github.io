@@ -1,6 +1,5 @@
 import "./Home.css";
 import { Link } from "react-router-dom";
-import React, { useState, useEffect } from "react";
 
 import "./themes.css";
 import "./Toggle.css";
@@ -10,7 +9,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { GoLinkExternal } from "react-icons/go";
-import { BsFillLightbulbFill } from "react-icons/bs";
 
 // IMAGES
 import headshot from "./images/headshot.jpg";
@@ -21,19 +19,6 @@ const scrollToTop = () => {
 };
 
 export default function Home() {
-  const [theme, setTheme] = useState("light");
-  const toggleTheme = () => {
-    if (theme === "light") {
-      setTheme("dark");
-    } else {
-      setTheme("light");
-    }
-  };
-
-  useEffect(() => {
-    document.body.className = theme;
-  }, [theme]);
-
   return (
     <html>
       <body>
@@ -63,7 +48,7 @@ export default function Home() {
                     <FaGithub
                       style={{
                         paddingRight: 16,
-                        color: theme === "light" ? "dark" : "light",
+                        color: "var(--icon-color)",
                       }}
                       size={40}
                     />
@@ -79,7 +64,7 @@ export default function Home() {
                     <FaLinkedin
                       style={{
                         paddingRight: 16,
-                        color: theme === "light" ? "dark" : "light",
+                        color: "var(--icon-color)",
                       }}
                       size={40}
                     />
@@ -95,7 +80,7 @@ export default function Home() {
                     <FaTwitter
                       style={{
                         paddingRight: 16,
-                        color: theme === "light" ? "dark" : "light",
+                        color: "var(--icon-color)",
                       }}
                       size={40}
                     />
@@ -105,34 +90,6 @@ export default function Home() {
             </div>
 
             <div className="Resume">
-              <div className="ResumeHeader">About</div>
-
-              <div className="ResumeText">
-                <p>
-                  The first time I touched a computer, I was 4 years old. I was
-                  typing on keys and clicking on links before I could even read.
-                  When I turned 12, I was already lurking forums, modding games,
-                  and running servers. I became irreversibly enamored with the
-                  intellectual and creative depths of the internet.
-                </p>
-
-                <p>
-                  Destiny whisked me away and I graduated in computer science.
-                  I'm now a software engineer based in the Washington metro
-                  area. My main focus is front-end development and building
-                  sharp and responsive products for clients.
-                </p>
-
-                <p>
-                  In my free time, I do personal projects and mentor others in
-                  coding. I'm also an avid manga fan and competitive video game
-                  player.
-                </p>
-              </div>
-
-              <br />
-              <br />
-
               <div className="ResumeHeader">Experience</div>
               <br />
 
@@ -208,6 +165,26 @@ export default function Home() {
 
               <br />
               <br />
+              <br />
+
+              <div className="ResumeHeader">About</div>
+
+              <div className="ResumeText">
+                <p>
+                  I'm a software engineer with full-stack experience. I've
+                  developed websites and managed databases. I also have
+                  interests in UX design.
+                </p>
+
+                <p>
+                  In my free time, I read non-fiction, mentor friends in coding,
+                  and pursue personal projects. I'm an aspiring polymath so I
+                  enjoy studying computer science, mathematics, statistics,
+                  economics, and other subjects. To will myself to understand is
+                  my greatest joy.
+                </p>
+              </div>
+
               <br />
               <br />
               <br />

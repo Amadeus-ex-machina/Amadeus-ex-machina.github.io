@@ -1,14 +1,16 @@
 .dark {
-    --background-color: #333333;
-    --header-text-color: rgb(88, 141, 240);
-    --subheader-text-color: rgb(165, 169, 177);
-    --small-text-color: rgb(210, 214, 221);
+  --background-color: #333333;
+  --header-text-color: #fff;
+  --subheader-text-color: #fff;
+  --small-text-color: rgb(184, 184, 184);
 
-    --subtle-color: rgb(79, 81, 83);
+  --subtle-color: rgb(79, 81, 83);
 
-    --hover-color: rgba(7, 63, 105, 0.8);
+  --hover-color: rgba(7, 63, 105, 0.8);
 
-    transition: background 0.1s;
+  transition: background 0.1s;
+
+  --icon-color: #fff;
 
   background-color: var(--background-color);
   color: #fff;
@@ -16,15 +18,17 @@
 
 .light {
   --background-color: #fff;
-  --header-text-color: rgb(10, 33, 75);
-  --subheader-text-color: rgb(63, 65, 70);
-  --small-text-color: rgb(85, 88, 92);
+  --header-text-color: #333;
+  --subheader-text-color: #333;
+  --small-text-color: rgb(29, 29, 29);
 
   --subtle-color: rgb(209, 220, 228);
 
   --hover-color: rgba(185, 224, 255, 0.8);
 
   transition: background 0.1s;
+
+  --icon-color: #333;
 
   background-color: var(--background-color);
   color: #333;
