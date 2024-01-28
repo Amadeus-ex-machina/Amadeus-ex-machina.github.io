@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e77931e.css",
-    "main.js": "/static/js/main.2a9cdfde.js",
+    "main.css": "/static/css/main.815c589d.css",
+    "main.js": "/static/js/main.40a20a59.js",
     "static/js/787.c922dae8.chunk.js": "/static/js/787.c922dae8.chunk.js",
     "static/media/CarepackerStoryboardKiosk1.png": "/static/media/CarepackerStoryboardKiosk1.e605fc3e79e1c5f6afda.png",
     "static/media/CarepackerStoryboardWebsite.png": "/static/media/CarepackerStoryboardWebsite.f7e8e95b75d47b951594.png",
@@ -9,16 +9,19 @@
     "static/media/CarepackerStoryboardKiosk2.png": "/static/media/CarepackerStoryboardKiosk2.0170a613120a2574a775.png",
     "static/media/CarepackerStoryboardApp.png": "/static/media/CarepackerStoryboardApp.489d146510e68874b573.png",
     "static/media/headshot.jpg": "/static/media/headshot.d894838ee872883ead12.jpg",
-    "static/media/CarepackerPhone.png": "/static/media/CarepackerPhone.70ab44e0f0256dd5cd17.png",
+    "static/media/weather-app.gif": "/static/media/weather-app.971bfbb90d8115ce8060.gif",
     "static/media/CarepackerShowcase.png": "/static/media/CarepackerShowcase.a9479241b81e8fcddbd8.png",
+    "static/media/CarepackerPhone.png": "/static/media/CarepackerPhone.b8ad786aaa3c2a436581.png",
+    "static/media/newweather.png": "/static/media/newweather.8e31e2bc41465169ad4c.png",
     "static/media/CarepackerFrames.png": "/static/media/CarepackerFrames.102a5ce4dee3f79c3ff4.png",
+    "static/media/weather-app-crop.gif": "/static/media/weather-app-crop.e3ef0fd0ac143ac5c622.gif",
     "index.html": "/index.html",
-    "main.7e77931e.css.map": "/static/css/main.7e77931e.css.map",
-    "main.2a9cdfde.js.map": "/static/js/main.2a9cdfde.js.map",
+    "main.815c589d.css.map": "/static/css/main.815c589d.css.map",
+    "main.40a20a59.js.map": "/static/js/main.40a20a59.js.map",
     "787.c922dae8.chunk.js.map": "/static/js/787.c922dae8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e77931e.css",
-    "static/js/main.2a9cdfde.js"
+    "static/css/main.815c589d.css",
+    "static/js/main.40a20a59.js"
   ]
 }
