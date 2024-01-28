@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7e77931e.css",
-    "main.js": "/static/js/main.d50913bc.js",
+    "main.js": "/static/js/main.dd098db5.js",
     "static/js/787.c922dae8.chunk.js": "/static/js/787.c922dae8.chunk.js",
     "static/media/CarepackerStoryboardKiosk1.png": "/static/media/CarepackerStoryboardKiosk1.e605fc3e79e1c5f6afda.png",
     "static/media/CarepackerStoryboardWebsite.png": "/static/media/CarepackerStoryboardWebsite.f7e8e95b75d47b951594.png",
@@ -14,11 +14,11 @@
     "static/media/CarepackerFrames.png": "/static/media/CarepackerFrames.102a5ce4dee3f79c3ff4.png",
     "index.html": "/index.html",
     "main.7e77931e.css.map": "/static/css/main.7e77931e.css.map",
-    "main.d50913bc.js.map": "/static/js/main.d50913bc.js.map",
+    "main.dd098db5.js.map": "/static/js/main.dd098db5.js.map",
     "787.c922dae8.chunk.js.map": "/static/js/787.c922dae8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e77931e.css",
-    "static/js/main.d50913bc.js"
+    "static/js/main.dd098db5.js"
   ]
 }
