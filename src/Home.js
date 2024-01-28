@@ -1,8 +1,10 @@
+// CSS
 import "./Home.css";
-import { Link } from "react-router-dom";
-
 import "./themes.css";
 import "./Toggle.css";
+
+// REACT IMPORTS
+import { Link } from "react-router-dom";
 
 // REACT ICONS
 import { FaGithub } from "react-icons/fa";
@@ -13,6 +15,7 @@ import { GoLinkExternal } from "react-icons/go";
 // IMAGES
 import headshot from "./images/headshot.jpg";
 import CarepackerPhone from "./images/CarepackerPhone.png";
+import WeatherApp from "./images/weather/newweather.png";
 
 const scrollToTop = () => {
   window.scrollTo(0, 0);
@@ -101,6 +104,7 @@ export default function Home() {
                 <div className="resumeItem">
                   <div className="ResumeSubHeader">
                     IT Coordinator @ Conservation International{" "}
+                    <GoLinkExternal />
                   </div>
                   <div className="ResumeSubText">
                     <div className="tagBar">
@@ -161,7 +165,7 @@ export default function Home() {
               {/*  PROJECT CARDS */}
               <br />
               <div className="ResumeSubHeader">
-                I Designed A Care Packaging App.
+                I Designed A Care Packaging App
                 <br />
                 <br />
               </div>
@@ -174,10 +178,25 @@ export default function Home() {
                 />
               </Link>
 
-              <div className="ResumeSubText">
-                <p>A care packaging service app design.</p>
+              <br />
+              <br />
+
+              <div className="ResumeSubHeader">
+                I Built A Weather App
+                <br />
+                <br />
               </div>
 
+              <Link onClick={scrollToTop} to="/weather">
+                <img
+                  className="card"
+                  src={WeatherApp}
+                  alt="WeatherApp"
+                />
+              </Link>
+
+              <br />
+              <br />
               <br />
               <br />
               <br />

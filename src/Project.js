@@ -212,6 +212,7 @@ export default function Project() {
                     textDecoration: "underline",
                     textDecorationThickness: "3px",
                     textUnderlineOffset: "5px",
+                    textDecorationColor: 'var(--small-text-color)'
                   }}
                   href="https://www.linkedin.com/in/lisa-park-9216aa70/"
                 >
