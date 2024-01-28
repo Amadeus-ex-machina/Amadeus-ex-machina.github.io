@@ -145,8 +145,11 @@ export default function Home() {
 
               <div className="ResumeSubHeader">James Madison University</div>
               <div className="ResumeSubText">
-                <p>B.S. in Computer Science<br/>
-                  December 2022</p>
+                <p>
+                  B.S. in Computer Science
+                  <br />
+                  December 2022
+                </p>
               </div>
 
               <br />
@@ -194,6 +197,8 @@ export default function Home() {
                   computer science, mathematics, statistics, economics, and
                   other subjects.
                 </p>
+
+                <p>Feel free to contact me at amadeuskang@gmail.com.</p>
               </div>
 
               <br />
