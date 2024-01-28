@@ -101,7 +101,6 @@ export default function Home() {
                 <div className="resumeItem">
                   <div className="ResumeSubHeader">
                     IT Coordinator @ Conservation International{" "}
-                    <GoLinkExternal />
                   </div>
                   <div className="ResumeSubText">
                     <div className="tagBar">
@@ -141,6 +140,19 @@ export default function Home() {
               <br />
               <br />
 
+              <div className="ResumeHeader">Education</div>
+              <br />
+
+              <div className="ResumeSubHeader">James Madison University</div>
+              <div className="ResumeSubText">
+                <p>B.S. in Computer Science<br/>
+                  December 2022</p>
+              </div>
+
+              <br />
+              <br />
+              <br />
+
               <div className="ResumeHeader">Projects</div>
 
               {/*  PROJECT CARDS */}
@@ -172,16 +184,15 @@ export default function Home() {
               <div className="ResumeText">
                 <p>
                   I'm a software engineer with full-stack experience. I've
-                  developed websites and managed databases. I also have
-                  interests in UX design.
+                  developed websites and managed databases. I engineer products
+                  with a focus on human-centered design.
                 </p>
 
                 <p>
-                  In my free time, I read non-fiction, mentor friends in coding,
-                  and pursue personal projects. I'm an aspiring polymath so I
-                  enjoy studying computer science, mathematics, statistics,
-                  economics, and other subjects. To will myself to understand is
-                  my greatest joy.
+                  In my free time, I mentor others in coding and pursue personal
+                  projects. I'm an aspiring polymath so I enjoy studying
+                  computer science, mathematics, statistics, economics, and
+                  other subjects.
                 </p>
               </div>
 
