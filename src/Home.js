@@ -36,8 +36,9 @@ export default function Home() {
               <br />
               <br />
 
-              <img src={headshot} alt="headshot" width={250} height={250} style={{borderRadius: "10px"}} />
+              <img src={headshot} alt="headshot" width={250} height={250} style={{borderRadius: "500px"}} />
 
+              <br />
               <br />
               <br />
 
