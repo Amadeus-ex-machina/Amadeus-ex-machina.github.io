@@ -13,7 +13,7 @@ import { FaTwitter } from "react-icons/fa";
 import { GoLinkExternal } from "react-icons/go";
 
 // IMAGES
-import headshot from "./images/headshot.jpg";
+import headshot from "./images/headshot.png";
 import CarepackerPhone from "./images/CarepackerPhone.png";
 import WeatherApp from "./images/weather/newweather.png";
 
@@ -36,7 +36,7 @@ export default function Home() {
               <br />
               <br />
 
-              <img src={headshot} alt="headshot" width={250} height={250} />
+              <img src={headshot} alt="headshot" width={250} height={250} style={{borderRadius: "10px"}} />
 
               <br />
               <br />
