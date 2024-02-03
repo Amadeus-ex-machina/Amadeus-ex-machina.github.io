@@ -1,12 +1,12 @@
 import "./App.css";
 
-import Toggle from "./Toggle";
-import Project from "./Project";
-import Weather from "./Weather";
+import Toggle from "./components/Toggle/Toggle";
+import Project from "./pages/carepacker/carepacker";
+import Weather from "./pages/weather/weather";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Home from "./Home";
+import Home from "./pages/home/Home";
 
 function App() {
   return (

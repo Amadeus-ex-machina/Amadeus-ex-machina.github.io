@@ -1,8 +1,8 @@
-import "./Weather.css";
+import "./weather.css";
 
 // IMAGES
-import WeatherApp from "./images/weather/weather-app-crop.gif";
-import WeatherAppFull from "./images/weather/weather-app.gif";
+import WeatherApp from "assets/weather/weather-app-crop.gif";
+import WeatherAppFull from "assets/weather/weather-app.gif";
 
 export default function Project() {
   return (

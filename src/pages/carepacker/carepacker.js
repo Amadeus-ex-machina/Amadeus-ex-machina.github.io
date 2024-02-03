@@ -1,15 +1,15 @@
-import "./Project.css";
+import "./carepacker.css";
 import FigmaEmbed from "react-figma-embed";
 
 // IMAGES
-import CarepackerPhone from "./images/CarepackerPhone.png";
-import CarepackerFrames from "./images/CarepackerFrames.png";
-import CarepackerStoryboardApp from "./images/CarepackerStoryboardApp.png";
-import CarepackerStoryboardKiosk1 from "./images/CarepackerStoryboardKiosk1.png";
-import CarepackerStoryboardKiosk2 from "./images/CarepackerStoryboardKiosk2.png";
-import CarepackerStoryboardStore from "./images/CarepackerStoryboardStore.png";
-import CarepackerStoryboardWebsite from "./images/CarepackerStoryboardWebsite.png";
-import CarepackerShowcase from "./images/CarepackerShowcase.png";
+import phone from "assets/carepacker/phone.png";
+import frames from "assets/carepacker/frames.png";
+import storyboardApp from "assets/carepacker/storyboard-app.png";
+import storyboardKiosk1 from "assets/carepacker/storyboard-kiosk-1.png";
+import storyboardKiosk2 from "assets/carepacker/storyboard-kiosk-2.png";
+import storyboardStore from "assets/carepacker/storyboard-store.png";
+import storyboardWebsite from "assets/carepacker/storyboard-website.png";
+import showcase from "assets/carepacker/showcase.png";
 
 export default function Project() {
   return (
@@ -37,8 +37,8 @@ export default function Project() {
 
             <div className="ImageFrame">
               <img
-                src={CarepackerPhone}
-                alt="CarepackerPhone"
+                src={phone}
+                alt="phone"
                 style={{
                   maxWidth: "100%",
                   height: "auto",
@@ -84,8 +84,8 @@ export default function Project() {
                 <br />
                 <div className="ImageFrame">
                   <img
-                    src={CarepackerShowcase}
-                    alt="CarepackerShowcase"
+                    src={showcase}
+                    alt="showcase"
                     style={{
                       maxWidth: "100%",
                       height: "auto",
@@ -98,8 +98,8 @@ export default function Project() {
                 <br />
                 <div className="ImageFrame">
                   <img
-                    src={CarepackerFrames}
-                    alt="CarepackerFrames"
+                    src={frames}
+                    alt="frames"
                     style={{
                       maxWidth: "100%",
                       height: "auto",
@@ -114,8 +114,8 @@ export default function Project() {
                 <br />
                 <div className="ImageFrame">
                   <img
-                    src={CarepackerStoryboardApp}
-                    alt="CarepackerStoryboardApp"
+                    src={storyboardApp}
+                    alt="storyboardApp"
                     style={{
                       maxWidth: "100%",
                       height: "auto",
@@ -131,8 +131,8 @@ export default function Project() {
                 <br />
                 <div className="ImageFrame">
                   <img
-                    src={CarepackerStoryboardWebsite}
-                    alt="CarepackerStoryboardWebsite"
+                    src={storyboardWebsite}
+                    alt="storyboardWebsite"
                     style={{
                       maxWidth: "100%",
                       height: "auto",
@@ -146,8 +146,8 @@ export default function Project() {
                 <br />
                 <div className="ImageFrame">
                   <img
-                    src={CarepackerStoryboardKiosk1}
-                    alt="CarepackerStoryboardKiosk1"
+                    src={storyboardKiosk1}
+                    alt="storyboardKiosk1"
                     style={{
                       maxWidth: "100%",
                       height: "auto",
@@ -163,8 +163,8 @@ export default function Project() {
                 <br />
                 <div className="ImageFrame">
                   <img
-                    src={CarepackerStoryboardKiosk2}
-                    alt="CarepackerStoryboardKiosk2"
+                    src={storyboardKiosk2}
+                    alt="storyboardKiosk2"
                     style={{
                       maxWidth: "100%",
                       height: "auto",
@@ -182,8 +182,8 @@ export default function Project() {
               <br />
               <div className="ImageFrame">
                 <img
-                  src={CarepackerStoryboardStore}
-                  alt="CarepackerStoryboardStore"
+                  src={storyboardStore}
+                  alt="storyboardStore"
                   style={{
                     maxWidth: "100%",
                     height: "auto",

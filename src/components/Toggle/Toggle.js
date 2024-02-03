@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import './themes.css';
+import '../../theme/themes.css';
 import './Toggle.css';
 
 import { BsFillLightbulbFill } from "react-icons/bs";

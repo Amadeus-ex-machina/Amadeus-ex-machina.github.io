@@ -1,21 +1,19 @@
 // CSS
 import "./Home.css";
-import "./themes.css";
-import "./Toggle.css";
+import "../../theme/themes.css";
+import "../../components/Toggle/Toggle.css";
 
 // REACT IMPORTS
 import { Link } from "react-router-dom";
 
 // REACT ICONS
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { GoLinkExternal } from "react-icons/go";
 
 // IMAGES
-import headshot from "./images/headshot.png";
-import CarepackerPhone from "./images/CarepackerPhone.png";
-import WeatherApp from "./images/weather/newweather.png";
+import headshot from "assets/headshot.png";
+import carepackerPhone from "assets/carepacker/phone.png";
+import weatherApp from "assets/weather/weather-app-crop.png";
 
 const scrollToTop = () => {
   window.scrollTo(0, 0);
@@ -174,8 +172,8 @@ export default function Home() {
               <Link onClick={scrollToTop} to="/project">
                 <img
                   className="card"
-                  src={CarepackerPhone}
-                  alt="CarepackerPhone"
+                  src={carepackerPhone}
+                  alt="carepackerPhone"
                 />
               </Link>
 
@@ -191,8 +189,8 @@ export default function Home() {
               <Link onClick={scrollToTop} to="/weather">
                 <img
                   className="card"
-                  src={WeatherApp}
-                  alt="WeatherApp"
+                  src={weatherApp}
+                  alt="weatherApp"
                 />
               </Link>
 
