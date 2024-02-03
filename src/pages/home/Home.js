@@ -169,7 +169,7 @@ export default function Home() {
                 <br />
               </div>
 
-              <Link onClick={scrollToTop} to="/project">
+              <Link onClick={scrollToTop} to="/carepacker">
                 <img
                   className="card"
                   src={carepackerPhone}

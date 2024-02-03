@@ -1,12 +1,14 @@
 import "./App.css";
 
+// Components
 import Toggle from "./components/Toggle/Toggle";
-import Project from "./pages/carepacker/carepacker";
+
+// Pages
+import Home from "./pages/home/Home";
+import Carepacker from "./pages/carepacker/carepacker";
 import Weather from "./pages/weather/weather";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-import Home from "./pages/home/Home";
 
 function App() {
   return (
@@ -15,8 +17,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Project" element={<Project />} />
-          <Route path="/Weather" element={<Weather />} />
+          <Route path="/carepacker" element={<Carepacker />} />
+          <Route path="/weather" element={<Weather />} />
         </Routes>
       </Router>
     </>

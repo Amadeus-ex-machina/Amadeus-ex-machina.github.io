@@ -11,7 +11,7 @@ import storyboardStore from "assets/carepacker/storyboard-store.png";
 import storyboardWebsite from "assets/carepacker/storyboard-website.png";
 import showcase from "assets/carepacker/showcase.png";
 
-export default function Project() {
+export default function Carepacker() {
   return (
     <html>
       <body>
