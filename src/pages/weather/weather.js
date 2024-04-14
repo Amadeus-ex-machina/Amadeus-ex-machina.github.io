@@ -66,7 +66,7 @@ export default function Project() {
                     textUnderlineOffset: "5px",
                     textDecorationColor: "var(--small-text-color)",
                   }}
-                  href="https://www.linkedin.com/in/lisa-park-9216aa70/"
+                  href="https://github.com/amadeuswolfkang/weather-app"
                 >
                 here
                 </a>
